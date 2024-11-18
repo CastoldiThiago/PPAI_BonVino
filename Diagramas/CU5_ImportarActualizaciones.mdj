@@ -310,9 +310,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 245,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "«control»"
 										},
@@ -324,9 +324,9 @@
 											},
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 260,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "GestorImportarActualizaciones"
 										},
@@ -339,7 +339,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 1856,
+											"left": 1792,
 											"top": -5376,
 											"width": 143.04443359375,
 											"height": 13,
@@ -354,7 +354,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 1856,
+											"left": 1792,
 											"top": -5376,
 											"height": 13,
 											"horizontalAlignment": 1
@@ -362,9 +362,9 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 984,
+									"left": 952,
 									"top": 240,
-									"width": 586.31982421875,
+									"width": 636.17431640625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGSahSqCto2V00="
@@ -400,9 +400,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 283,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+seleccionBodega: Bodega",
 											"horizontalAlignment": 0
@@ -418,11 +418,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 298,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
-											"text": "+listaBodegasParaActualizar: List<Bodega>",
+											"text": "+listaBodegasParaActualizar: List<String>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -436,9 +436,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 313,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+tipoUva: TipoUva",
 											"horizontalAlignment": 0
@@ -454,9 +454,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 328,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+maridaje: Maridaje",
 											"horizontalAlignment": 0
@@ -472,9 +472,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 343,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+listaSeguidoresDeBodega: List<Seguidor>",
 											"horizontalAlignment": 0
@@ -490,11 +490,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 358,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
-											"text": "+datosActualizacionVinos: String",
+											"text": "+actualizaciones: List<Object>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -508,9 +508,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 373,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+vinosImportados: List<Vino>",
 											"horizontalAlignment": 0
@@ -526,9 +526,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 388,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+enofilos: List<Enofilo>",
 											"horizontalAlignment": 0
@@ -544,9 +544,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 403,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+usuariosSeguidores: List<String>",
 											"horizontalAlignment": 0
@@ -562,19 +562,19 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 418,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
-											"text": "+resumenVinosImportados: List<String>",
+											"text": "+resumenVinosImportados: List<Map<String, Object>>",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 984,
+									"left": 952,
 									"top": 278,
-									"width": 586.31982421875,
+									"width": 636.17431640625,
 									"height": 158
 								},
 								{
@@ -598,11 +598,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 441,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
-											"text": "+opImportarActualizacionVinos(): List<String>",
+											"text": "+opImportarActualizacionVinos(): String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -616,9 +616,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 456,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+buscarBodegasParaActualizar(): List<String>",
 											"horizontalAlignment": 0
@@ -634,11 +634,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 471,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
-											"text": "+tomarSeleccionBodega(bodegaSeleccion: String): List<List<String>>",
+											"text": "+tomarSeleccionBodega(bodegaSeleccion: String): String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -652,11 +652,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 486,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
-											"text": "+obtenerActualizacionVinosBodega(bodegaSeleccion: String, actualizaciones: List<Object>)",
+											"text": "+obtenerActualizacionVinosBodega(bodegaSeleccion: String): List<Object>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -670,9 +670,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 501,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+buscarMaridaje(mar: int): Maridaje",
 											"horizontalAlignment": 0
@@ -688,9 +688,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 516,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+buscarTipoUva(tipouva: int): TipoUva",
 											"horizontalAlignment": 0
@@ -706,11 +706,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 531,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
-											"text": "+actualizarOCrearVinos(bosegaSeleccion: String, actualizaciones: List<Object>): List<List<String>>",
+											"text": "+actualizarOCrearVinos(bosegaSeleccion: String, actualizaciones: List<Object>): List<Map<String, Object>>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -724,9 +724,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 546,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+finCU()",
 											"horizontalAlignment": 0
@@ -742,9 +742,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 561,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+suscribir(obs: IObservadorNotif): Void",
 											"horizontalAlignment": 0
@@ -760,9 +760,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 576,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+quitar(obs: IObservadorNotif): Void",
 											"horizontalAlignment": 0
@@ -778,9 +778,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 591,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
 											"text": "+notificar(): Void",
 											"horizontalAlignment": 0
@@ -796,11 +796,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 606,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
-											"text": "+notificarUsuariosSeguidores(): String",
+											"text": "+notificarUsuariosSeguidores(resumenVinos: List<Map<String, Object>>, bodegaSeleccion: String): String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -814,19 +814,19 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 989,
+											"left": 957,
 											"top": 621,
-											"width": 576.31982421875,
+											"width": 626.17431640625,
 											"height": 13,
-											"text": "+buscarSeguidoresBodega(): List<String>",
+											"text": "+buscarSeguidoresBodega(bodegaSeleccion): List<String>",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 984,
+									"left": 952,
 									"top": 436,
-									"width": 586.31982421875,
+									"width": 636.17431640625,
 									"height": 203
 								},
 								{
@@ -841,7 +841,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 928,
+									"left": 896,
 									"top": -2688,
 									"width": 10,
 									"height": 10
@@ -858,7 +858,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 928,
+									"left": 896,
 									"top": -2688,
 									"width": 10,
 									"height": 10
@@ -867,9 +867,9 @@
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"containerChangeable": true,
-							"left": 984,
+							"left": 952,
 							"top": 240,
-							"width": 585.31982421875,
+							"width": 635.17431640625,
 							"height": 429,
 							"nameCompartment": {
 								"$ref": "AAAAAAGSahSqCto1Ih4="
@@ -1124,7 +1124,7 @@
 											"parentStyle": true,
 											"left": 1605,
 											"top": 269,
-											"width": 748.3603515625,
+											"width": 774.13818359375,
 											"height": 13,
 											"text": "«boundary»"
 										},
@@ -1138,7 +1138,7 @@
 											"parentStyle": true,
 											"left": 1605,
 											"top": 284,
-											"width": 748.3603515625,
+											"width": 774.13818359375,
 											"height": 13,
 											"text": "InterfazNotificacionPush"
 										},
@@ -1176,7 +1176,7 @@
 									"parentStyle": true,
 									"left": 1600,
 									"top": 264,
-									"width": 758.3603515625,
+									"width": 784.13818359375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGSainbcd1LkR8="
@@ -1204,7 +1204,7 @@
 									"parentStyle": true,
 									"left": 1600,
 									"top": 302,
-									"width": 758.3603515625,
+									"width": 784.13818359375,
 									"height": 10
 								},
 								{
@@ -1230,7 +1230,7 @@
 											"parentStyle": true,
 											"left": 1605,
 											"top": 317,
-											"width": 748.3603515625,
+											"width": 774.13818359375,
 											"height": 13,
 											"text": "+new(): InterfazNotificacionPush",
 											"horizontalAlignment": 0
@@ -1248,9 +1248,9 @@
 											"parentStyle": true,
 											"left": 1605,
 											"top": 332,
-											"width": 748.3603515625,
+											"width": 774.13818359375,
 											"height": 13,
-											"text": "+notificarNovedadVinoParaBodega(texto: String, usuarioSeguidores: List<String>, vinos: List<List<String>>, bodega: String): Void",
+											"text": "+notificarNovedadVinoParaBodega(usuarioSeguidores: List<String>, resumenVinos: List<Map<String, Object>>, bodega: String): Void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1266,9 +1266,27 @@
 											"parentStyle": true,
 											"left": 1605,
 											"top": 347,
-											"width": 748.3603515625,
+											"width": 774.13818359375,
 											"height": 13,
-											"text": "+notificacionPush()",
+											"text": "+notificarEnofilo(usuario: String, mensajeNotificacion: String): Void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGTO7E4wALwPEg=",
+											"_parent": {
+												"$ref": "AAAAAAGSainbcd1QaNM="
+											},
+											"model": {
+												"$ref": "AAAAAAGTO7E4uALt5kA="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1605,
+											"top": 362,
+											"width": 774.13818359375,
+											"height": 13,
+											"text": "+crearMensajeNotificacion(bodega: String, vinosImportados: List<Map<String, Object>>): String",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1276,8 +1294,8 @@
 									"parentStyle": true,
 									"left": 1600,
 									"top": 312,
-									"width": 758.3603515625,
-									"height": 53
+									"width": 784.13818359375,
+									"height": 68
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1319,8 +1337,8 @@
 							"containerChangeable": true,
 							"left": 1600,
 							"top": 264,
-							"width": 757.3603515625,
-							"height": 101,
+							"width": 783.13818359375,
+							"height": 116,
 							"nameCompartment": {
 								"$ref": "AAAAAAGSainbcd1K+p4="
 							},
@@ -1359,8 +1377,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1964,
-									"top": 221,
+									"left": 1971,
+									"top": 222,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1381,8 +1399,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1949,
-									"top": 221,
+									"left": 1956,
+									"top": 223,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1403,8 +1421,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1993,
-									"top": 222,
+									"left": 2000,
+									"top": 221,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1423,7 +1441,7 @@
 								"$ref": "AAAAAAGSainbcd1JRTA="
 							},
 							"lineStyle": 1,
-							"points": "1979:263;1980:193",
+							"points": "1988:263;1984:193",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGSaixP2N2Tn2M="
@@ -1555,8 +1573,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1640,
-									"top": 359,
+									"left": 1625,
+									"top": 367,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1577,8 +1595,8 @@
 									"visible": "",
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1637,
-									"top": 344,
+									"left": 1622,
+									"top": 352,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1599,8 +1617,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1645,
-									"top": 388,
+									"left": 1630,
+									"top": 396,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1619,7 +1637,7 @@
 								"$ref": "AAAAAAGSahSqCto0s6A="
 							},
 							"lineStyle": 1,
-							"points": "1570:395;1717:366",
+							"points": "1588:396;1668:381",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGSaiyEWd21HOE="
@@ -1653,8 +1671,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1964,
-									"top": 221,
+									"left": 1971,
+									"top": 222,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1675,8 +1693,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1949,
-									"top": 221,
+									"left": 1956,
+									"top": 223,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1697,8 +1715,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1993,
-									"top": 222,
+									"left": 2000,
+									"top": 221,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1717,7 +1735,7 @@
 								"$ref": "AAAAAAGSainbcd1JRTA="
 							},
 							"lineStyle": 1,
-							"points": "1979:263;1980:193",
+							"points": "1988:263;1984:193",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGSd8FB3ZSOC6g="
@@ -1751,7 +1769,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1298,
+									"left": 1296,
 									"top": 199,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1773,8 +1791,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1283,
-									"top": 197,
+									"left": 1281,
+									"top": 196,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1795,7 +1813,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1327,
+									"left": 1325,
 									"top": 204,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1815,7 +1833,7 @@
 								"$ref": "AAAAAAGSahSqCto0s6A="
 							},
 							"lineStyle": 1,
-							"points": "1309:239;1318:177",
+							"points": "1306:239;1317:177",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGSd8Fnc5SnWQg="
@@ -3214,7 +3232,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1668,
+									"left": 1677,
 									"top": 448,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3236,7 +3254,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1669,
+									"left": 1678,
 									"top": 433,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3258,7 +3276,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1667,
+									"left": 1676,
 									"top": 477,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -3278,7 +3296,7 @@
 								"$ref": "AAAAAAGSahSqCto0s6A="
 							},
 							"lineStyle": 1,
-							"points": "1570:466;1767:473",
+							"points": "1588:466;1767:473",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGSy1+ZacSizd0="
@@ -3989,7 +4007,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1609,
+									"left": 1607,
 									"top": 708,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4011,7 +4029,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1619,
+									"left": 1617,
 									"top": 697,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4033,7 +4051,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1590,
+									"left": 1588,
 									"top": 731,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -4053,7 +4071,7 @@
 								"$ref": "AAAAAAGSahSqCto0s6A="
 							},
 							"lineStyle": 1,
-							"points": "1533:670;1668:783",
+							"points": "1530:670;1666:783",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGSy28V+lSsaK0="
@@ -6427,8 +6445,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 963,
-									"top": 625,
+									"left": 948,
+									"top": 631,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -6449,8 +6467,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 970,
-									"top": 638,
+									"left": 956,
+									"top": 644,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -6471,8 +6489,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 950,
-									"top": 598,
+									"left": 933,
+									"top": 606,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -6491,7 +6509,7 @@
 								"$ref": "AAAAAAGSahSqCto0s6A="
 							},
 							"lineStyle": 1,
-							"points": "983:605;932:631",
+							"points": "951:620;931:631",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGS77nvJzocqTU="
@@ -6525,8 +6543,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 852,
-									"top": 501,
+									"left": 836,
+									"top": 503,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -6547,8 +6565,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 853,
-									"top": 516,
+									"left": 837,
+									"top": 518,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -6569,8 +6587,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 849,
-									"top": 472,
+									"left": 833,
+									"top": 474,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -6589,7 +6607,7 @@
 								"$ref": "AAAAAAGSahSqCto0s6A="
 							},
 							"lineStyle": 1,
-							"points": "983:481;720:506",
+							"points": "951:484;720:506",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGS77oEfTzQ+34="
@@ -6623,8 +6641,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 927,
-									"top": 381,
+									"left": 911,
+									"top": 377,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -6645,8 +6663,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 924,
-									"top": 396,
+									"left": 908,
+									"top": 392,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -6667,8 +6685,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 934,
-									"top": 352,
+									"left": 918,
+									"top": 348,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -6687,7 +6705,7 @@
 								"$ref": "AAAAAAGSahSqCto0s6A="
 							},
 							"lineStyle": 1,
-							"points": "983:385;879:361",
+							"points": "951:378;879:361",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGS77oVlj6UtsY="
@@ -6785,7 +6803,7 @@
 								"$ref": "AAAAAAGS77J8vApQ9yM="
 							},
 							"lineStyle": 1,
-							"points": "879:309;920:304;983:331",
+							"points": "879:309;920:304;951:317",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGS77oqUEEMNe4="
@@ -6819,7 +6837,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 959,
+									"left": 957,
 									"top": 216,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -6841,7 +6859,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 950,
+									"left": 948,
 									"top": 228,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -6863,7 +6881,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 978,
+									"left": 976,
 									"top": 193,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -6883,7 +6901,7 @@
 								"$ref": "AAAAAAGSahSqCto0s6A="
 							},
 							"lineStyle": 1,
-							"points": "1004:239;934:184",
+							"points": "1001:239;933:184",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGS77ptvUah8Ec="
@@ -8020,7 +8038,7 @@
 								"$ref": "AAAAAAGSahSqCdoyuSg="
 							},
 							"name": "listaBodegasParaActualizar",
-							"type": "List<Bodega>"
+							"type": "List<String>"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8055,8 +8073,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSahSqCdoyuSg="
 							},
-							"name": "datosActualizacionVinos",
-							"type": "String"
+							"name": "actualizaciones",
+							"type": "List<Object>"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -8092,7 +8110,7 @@
 								"$ref": "AAAAAAGSahSqCdoyuSg="
 							},
 							"name": "resumenVinosImportados",
-							"type": "List<String>"
+							"type": "List<Map<String, Object>>"
 						}
 					],
 					"operations": [
@@ -8111,7 +8129,7 @@
 										"$ref": "AAAAAAGSahWjvdqzF3Y="
 									},
 									"name": "Parameter1",
-									"type": "List<String>",
+									"type": "String",
 									"direction": "return"
 								}
 							]
@@ -8160,7 +8178,7 @@
 										"$ref": "AAAAAAGSahWm4Nq/Few="
 									},
 									"name": "vinosImportados",
-									"type": "List<List<String>>",
+									"type": "String",
 									"direction": "return"
 								}
 							]
@@ -8189,7 +8207,8 @@
 										"$ref": "AAAAAAGSahWohtrFk1c="
 									},
 									"name": "actualizaciones",
-									"type": "List<Object>"
+									"type": "List<Object>",
+									"direction": "return"
 								}
 							]
 						},
@@ -8288,7 +8307,7 @@
 										"$ref": "AAAAAAGSahWtnNrXv3U="
 									},
 									"name": "vinosImportados",
-									"type": "List<List<String>>",
+									"type": "List<Map<String, Object>>",
 									"direction": "return"
 								}
 							]
@@ -8393,6 +8412,24 @@
 									"name": "mensaje",
 									"type": "String",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTO7ud0h8WWHk=",
+									"_parent": {
+										"$ref": "AAAAAAGSahiJ/dsnlCM="
+									},
+									"name": "resumenVinos",
+									"type": "List<Map<String, Object>>"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTO7wRUSA8asU=",
+									"_parent": {
+										"$ref": "AAAAAAGSahiJ/dsnlCM="
+									},
+									"name": "bodegaSeleccion",
+									"type": "String"
 								}
 							]
 						},
@@ -8413,6 +8450,15 @@
 									"name": "usuariosSeguidores",
 									"type": "List<String>",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTO7yW9SEx08g=",
+									"_parent": {
+										"$ref": "AAAAAAGSd6NhiZOMGn8="
+									},
+									"name": "bodegaSeleccion",
+									"type": ""
 								}
 							]
 						}
@@ -8555,15 +8601,6 @@
 							"parameters": [
 								{
 									"_type": "UMLParameter",
-									"_id": "AAAAAAGSeACyEJWL4qk=",
-									"_parent": {
-										"$ref": "AAAAAAGSd9VCOZUsJrw="
-									},
-									"name": "texto",
-									"type": "String"
-								},
-								{
-									"_type": "UMLParameter",
 									"_id": "AAAAAAGSeAC/yJWO8Ks=",
 									"_parent": {
 										"$ref": "AAAAAAGSd9VCOZUsJrw="
@@ -8587,8 +8624,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGSd9VCOZUsJrw="
 									},
-									"name": "vinos",
-									"type": "List<List<String>>"
+									"name": "resumenVinos",
+									"type": "List<Map<String, Object>>"
 								},
 								{
 									"_type": "UMLParameter",
@@ -8607,7 +8644,75 @@
 							"_parent": {
 								"$ref": "AAAAAAGSainbcd1HHE8="
 							},
-							"name": "notificacionPush"
+							"name": "notificarEnofilo",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTO66HyOhrt1Q=",
+									"_parent": {
+										"$ref": "AAAAAAGSy4YZiyVa9Og="
+									},
+									"name": "usuario",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTO6+WqOlgT4o=",
+									"_parent": {
+										"$ref": "AAAAAAGSy4YZiyVa9Og="
+									},
+									"name": "mensajeNotificacion",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTO7AZAeqGcXs=",
+									"_parent": {
+										"$ref": "AAAAAAGSy4YZiyVa9Og="
+									},
+									"name": "Parameter1",
+									"type": "Void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGTO7E4uALt5kA=",
+							"_parent": {
+								"$ref": "AAAAAAGSainbcd1HHE8="
+							},
+							"name": "crearMensajeNotificacion",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTO7GU6gPM7Dc=",
+									"_parent": {
+										"$ref": "AAAAAAGTO7E4uALt5kA="
+									},
+									"name": "bodega",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTO7GfgARfLDo=",
+									"_parent": {
+										"$ref": "AAAAAAGTO7E4uALt5kA="
+									},
+									"name": "vinosImportados",
+									"type": "List<Map<String, Object>>"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTO7GmSATyIm4=",
+									"_parent": {
+										"$ref": "AAAAAAGTO7E4uALt5kA="
+									},
+									"name": "mensajeNotificacion",
+									"type": "String",
+									"direction": "return"
+								}
+							]
 						}
 					]
 				},
@@ -10139,9 +10244,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 24.72998046875,
+											"left": 22.55908203125,
 											"top": 13,
-											"width": 167.63525390625,
+											"width": 148.70654296875,
 											"height": 13,
 											"text": "SecuenceDiagram_Observer"
 										},
@@ -10155,7 +10260,7 @@
 											"parentStyle": true,
 											"left": 5,
 											"top": 13,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -10443,9 +10548,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 195.578125,
+											"left": 194.11181640625,
 											"top": 589,
-											"width": 108.3671875,
+											"width": 98.541015625,
 											"height": 13,
 											"text": "suscribir interfaces"
 										},
@@ -10459,7 +10564,7 @@
 											"parentStyle": true,
 											"left": 165,
 											"top": 589,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -10493,7 +10598,7 @@
 															"parentStyle": true,
 															"left": 180,
 															"top": 622,
-															"width": 223.25341796875,
+															"width": 203.58203125,
 															"height": 13,
 															"text": "[mientras haya interfaces por suscribir]"
 														}
@@ -12000,9 +12105,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 195.578125,
+											"left": 194.11181640625,
 											"top": 197,
-											"width": 171.29150390625,
+											"width": 149.08740234375,
 											"height": 13,
 											"text": "buscar seguidores de bodega"
 										},
@@ -12016,7 +12121,7 @@
 											"parentStyle": true,
 											"left": 165,
 											"top": 197,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -12050,7 +12155,7 @@
 															"parentStyle": true,
 															"left": 180,
 															"top": 230,
-															"width": 137.29345703125,
+															"width": 126.34375,
 															"height": 13,
 															"text": "[mientras haya enofilos]"
 														}
@@ -12756,9 +12861,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 24.72998046875,
+											"left": 22.55908203125,
 											"top": 5,
-											"width": 107.67529296875,
+											"width": 95.291015625,
 											"height": 13,
 											"text": "SequenceDiagram"
 										},
@@ -12772,7 +12877,7 @@
 											"parentStyle": true,
 											"left": 5,
 											"top": 5,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -13314,9 +13419,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 563.578125,
+											"left": 562.11181640625,
 											"top": 269,
-											"width": 97.58251953125,
+											"width": 84.830078125,
 											"height": 13,
 											"text": "obtener bodegas"
 										},
@@ -13330,7 +13435,7 @@
 											"parentStyle": true,
 											"left": 533,
 											"top": 269,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -13364,7 +13469,7 @@
 															"parentStyle": true,
 															"left": 548,
 															"top": 302,
-															"width": 142.365234375,
+															"width": 127.06103515625,
 															"height": 13,
 															"text": "[mientras haya bodegas]"
 														}
@@ -14051,9 +14156,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 435.578125,
+											"left": 434.11181640625,
 											"top": 653,
-											"width": 138.00439453125,
+											"width": 123.77294921875,
 											"height": 13,
 											"text": "recorrer actualizaciones"
 										},
@@ -14067,7 +14172,7 @@
 											"parentStyle": true,
 											"left": 405,
 											"top": 653,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -14101,7 +14206,7 @@
 															"parentStyle": true,
 															"left": 420,
 															"top": 686,
-															"width": 181.37158203125,
+															"width": 163.8583984375,
 															"height": 13,
 															"text": "[mientras haya actualizaciones]"
 														}
@@ -14159,9 +14264,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 461.07177734375,
+											"left": 459.61181640625,
 											"top": 757,
-											"width": 163.2998046875,
+											"width": 146.52294921875,
 											"height": 13,
 											"text": "vinos para actualizar o crear"
 										},
@@ -14175,7 +14280,7 @@
 											"parentStyle": true,
 											"left": 437,
 											"top": 757,
-											"width": 18.07177734375,
+											"width": 16.61181640625,
 											"height": 13,
 											"text": "opt"
 										},
@@ -14209,7 +14314,7 @@
 															"parentStyle": true,
 															"left": 452,
 															"top": 790,
-															"width": 137.29345703125,
+															"width": 125.23291015625,
 															"height": 13,
 															"text": "[es vino para actualizar]"
 														}
@@ -14244,7 +14349,7 @@
 															"parentStyle": true,
 															"left": 452,
 															"top": 983,
-															"width": 111.2744140625,
+															"width": 100.6865234375,
 															"height": 13,
 															"text": "[es vino para crear]"
 														}
@@ -14302,9 +14407,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 571.578125,
+											"left": 570.11181640625,
 											"top": 1045,
-											"width": 92.4853515625,
+											"width": 82.65283203125,
 											"height": 13,
 											"text": "buscar maridaje"
 										},
@@ -14318,7 +14423,7 @@
 											"parentStyle": true,
 											"left": 541,
 											"top": 1045,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -14352,7 +14457,7 @@
 															"parentStyle": true,
 															"left": 556,
 															"top": 1078,
-															"width": 148.83984375,
+															"width": 134.99560546875,
 															"height": 13,
 															"text": "[mientras haya maridajes]"
 														}
@@ -14410,9 +14515,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 571.578125,
+											"left": 570.11181640625,
 											"top": 1173,
-											"width": 88.16259765625,
+											"width": 79.421875,
 											"height": 13,
 											"text": "buscar tipo uva"
 										},
@@ -14426,7 +14531,7 @@
 											"parentStyle": true,
 											"left": 541,
 											"top": 1173,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -14460,7 +14565,7 @@
 															"parentStyle": true,
 															"left": 556,
 															"top": 1206,
-															"width": 144.51708984375,
+															"width": 131.7646484375,
 															"height": 13,
 															"text": "[mientras haya tipos uva]"
 														}
@@ -15476,9 +15581,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 557.07177734375,
+											"left": 555.61181640625,
 											"top": 1565,
-											"width": 273.17138671875,
+											"width": 246.49853515625,
 											"height": 13,
 											"text": "actualizar fecha ultima actualizacion de bodega"
 										},
@@ -15492,7 +15597,7 @@
 											"parentStyle": true,
 											"left": 533,
 											"top": 1565,
-											"width": 18.07177734375,
+											"width": 16.61181640625,
 											"height": 13,
 											"text": "opt"
 										},
@@ -15526,7 +15631,7 @@
 															"parentStyle": true,
 															"left": 548,
 															"top": 1598,
-															"width": 143.0634765625,
+															"width": 132.513671875,
 															"height": 13,
 															"text": "[si hay vinos importados]"
 														}
@@ -15965,9 +16070,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 547.578125,
+											"left": 546.11181640625,
 											"top": 1821,
-											"width": 171.29150390625,
+											"width": 149.08740234375,
 											"height": 13,
 											"text": "buscar seguidores de bodega"
 										},
@@ -15981,7 +16086,7 @@
 											"parentStyle": true,
 											"left": 517,
 											"top": 1821,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -16015,7 +16120,7 @@
 															"parentStyle": true,
 															"left": 532,
 															"top": 1854,
-															"width": 137.29345703125,
+															"width": 126.34375,
 															"height": 13,
 															"text": "[mientras haya enofilos]"
 														}
@@ -16200,9 +16305,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 539.578125,
+											"left": 538.11181640625,
 											"top": 2077,
-											"width": 108.3671875,
+											"width": 98.541015625,
 											"height": 13,
 											"text": "suscribir interfaces"
 										},
@@ -16216,7 +16321,7 @@
 											"parentStyle": true,
 											"left": 509,
 											"top": 2077,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -16250,7 +16355,7 @@
 															"parentStyle": true,
 															"left": 524,
 															"top": 2110,
-															"width": 223.25341796875,
+															"width": 203.58203125,
 															"height": 13,
 															"text": "[mientras haya interfaces por suscribir]"
 														}
